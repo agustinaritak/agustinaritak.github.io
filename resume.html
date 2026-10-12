@@ -87,95 +87,249 @@
 
   <main class="main">
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+   
+<!-- Resume Section -->
+<section id="resume" class="resume section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-      </div><!-- End Section Title -->
+  <style>
+    /* Resume layout */
+    #resume .resume-columns {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    #resume .resume-left {
+      order: 1;
+    }
 
-        <div class="row">
-          <div class="col-lg-6">
+    #resume .resume-right {
+      order: 2;
+    }
 
-            <!-- Education Section -->
-            <div class="resume-item" data-aos="fade-up">
-              <h3 class="resume-title">Education</h3>
+    #resume .resume-item {
+      margin-bottom: 35px;
+    }
 
-              <div class="resume-content">
-                <article class="education-item">
-                  <h4>Bachelor of Arts in Indonesian Literature</h4>
-                  <h5>2020 - 2024</h5>
-                  <p class="institution"><em>Sanata Dharma University</em></p>
-                  <p> Specialized in linguistics with a thesis on word formation | Authored over 10 academic articles in language, literature, and cultural studies—including two papers indexed on Google Scholar | Graduated as one of the top students of the Indonesian Literature class of 2020.</p>
-                </article>
+    #resume .resume-content p,
+    #resume .resume-content li {
+      line-height: 1.8;
+    }
 
-              </div>
-            </div><!-- End Education Section -->
+    #resume .experience-item,
+    #resume .education-item {
+      margin-bottom: 24px;
+    }
 
-            <!-- Professional Skills Section -->
-            <div class="resume-item skills-animation" data-aos="fade-up">
-              <h3 class="resume-title">Selected Achievement & Training</h3>
+    @media (max-width: 991.98px) {
+      #resume .resume-left,
+      #resume .resume-right {
+        width: 100%;
+      }
+    }
+  </style>
 
-              <div class="resume-content">
-                <div class="skill-item">
-                  
-                  <div class="progress">
-                   <p> National Conference Speaker (Pemakalah Nasional) | 3rd Place – National Scientific Writing Competition | One published work included in a book | Short Class: Digital Marketing — MySkill | Technical SEO & Content Strategy — Skill Academy by Ruang Guru | Short Story Writing — Tempo Institute.</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Professional Skills Section -->
-          </div>
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+  </div>
+  <!-- End Section Title -->
 
-          <div class="col-lg-6">
-            <!-- Experience Section -->
-            <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-              <article class="resume-content">
-                <article class="experience-item">
-                  <h4>SEO Content Writer - PT Qhome Sukses Abadi</h4>
-                  <h5>Maret 2024 - Present</h5>
-                  <ul>
-                    <li>Manage content across three niche websites and ensure linguistic consistency and clarity.</li>
-                    <li>Write and refine 500+ Indonesian SEO articles, focusing on grammatical accuracy, natural tone, and logical structure.</li>
-                    <li>Conduct keyword research and content analysis to guide topic relevance and optimization.</li>
-                    <li>Evaluate content performance, achieving 100+ first-page Google rankings.</li>
-                    <li>Perform content audits and updates to improve readability, coherence, and organic traffic.</li>
-                  </ul>
-                </article>
+    <div class="row resume-columns">
 
-                <article class="experience-item">
-                  <h4>Freelance Content Writer - braderlayout.com</h4>
-                  <h5>Maret 2026 - April2026</h5>
-                  <ul>
-                    <li>Creating copy for presentation templates (10 slides), A4 documents, and posters.</li>
-                    <li>Writing content for infographics, carousels, and trifold brochures.</li>
-                    <li>Developing promotional materials (campaigns & marketing).</li> 
-                    <li>Adapting writing style to suit the target audience and brand needs</li>
-                  </ul>
-                </article>
+      <!-- =========================================
+           LEFT COLUMN: PROFESSIONAL EXPERIENCE
+      ========================================== -->
+      <div class="col-lg-6 resume-left">
 
-                <article class="experience-item">
-                  <h4>Freelance Content Writer - mindset.viva.co.id by VIVA Digital Network</h4>
-                  <h5>November 2025 - January 2026</h5>
-                  <ul>
-                    <li>Research parenting topics and write Indonesian articles aligned with editorial briefs.</li>
-                    <li>Apply casual tone, inverted pyramid structure, and EYD standards.</li>
-                    <li>Verify credible sources and revise content based on editorial feedback.</li> 
-                  </ul>
-                </article>
-              </div>
-            </div><!-- End Experience Section -->
+        <div class="resume-item" data-aos="fade-up">
+
+          <h3 class="resume-title">Professional Experience</h3>
+
+          <div class="resume-content">
+
+            <!-- Experience 1 -->
+            <article class="experience-item">
+
+              <h4>SEO Content Writer - PT Qhome Sukses Abadi</h4>
+              <h5>Maret 2024 - Present</h5>
+
+              <ul>
+                <li>
+                  Manage content across three niche websites and
+                  ensure linguistic consistency and clarity.
+                </li>
+
+                <li>
+                  Write and refine 500+ Indonesian SEO articles,
+                  focusing on grammatical accuracy, natural tone,
+                  and logical structure.
+                </li>
+
+                <li>
+                  Conduct keyword research and content analysis
+                  to guide topic relevance and optimization.
+                </li>
+
+                <li>
+                  Evaluate content performance, achieving
+                  100+ first-page Google rankings.
+                </li>
+
+                <li>
+                  Perform content audits and updates to improve
+                  readability, coherence, and organic traffic.
+                </li>
+              </ul>
+
+            </article>
+
+            <!-- Experience 2 -->
+            <article class="experience-item">
+
+              <h4>Freelance Content Writer - braderlayout.com</h4>
+              <h5>Maret 2026 - April 2026</h5>
+
+              <ul>
+                <li>
+                  Creating copy for presentation templates
+                  (10 slides), A4 documents, and posters.
+                </li>
+
+                <li>
+                  Writing content for infographics, carousels,
+                  and trifold brochures.
+                </li>
+
+                <li>
+                  Developing promotional materials
+                  (campaigns &amp; marketing).
+                </li>
+
+                <li>
+                  Adapting writing style to suit the
+                  target audience and brand needs.
+                </li>
+              </ul>
+
+            </article>
+
+            <!-- Experience 3 -->
+            <article class="experience-item">
+
+              <h4>
+                Freelance Content Writer -
+                mindset.viva.co.id by VIVA Digital Network
+              </h4>
+
+              <h5>November 2025 - January 2026</h5>
+
+              <ul>
+                <li>
+                  Research parenting topics and write Indonesian
+                  articles aligned with editorial briefs.
+                </li>
+
+                <li>
+                  Apply casual tone, inverted pyramid structure,
+                  and EYD standards.
+                </li>
+
+                <li>
+                  Verify credible sources and revise content
+                  based on editorial feedback.
+                </li>
+              </ul>
+
+            </article>
+
           </div>
         </div>
 
       </div>
+      <!-- END LEFT COLUMN -->
 
-    </section><!-- /Resume Section -->
+
+      <!-- =========================================
+           RIGHT COLUMN: EDUCATION & ACHIEVEMENT
+      ========================================== -->
+      <div class="col-lg-6 resume-right">
+
+        <!-- Education Section -->
+        <div class="resume-item" data-aos="fade-up">
+
+          <h3 class="resume-title">Education</h3>
+
+          <div class="resume-content">
+
+            <article class="education-item">
+
+              <h4>Bachelor of Arts in Indonesian Literature</h4>
+              <h5>2020 - 2024</h5>
+
+              <p class="institution">
+                <em>Sanata Dharma University</em>
+              </p>
+
+              <p>
+                Specialized in linguistics with a thesis on word
+                formation | Authored over 10 academic articles in
+                language, literature, and cultural studies—including
+                two papers indexed on Google Scholar | Graduated
+                as one of the top students of the Indonesian
+                Literature class of 2020.
+              </p>
+
+            </article>
+
+          </div>
+        </div>
+        <!-- End Education Section -->
+
+
+        <!-- Achievement & Training Section -->
+        <div class="resume-item" data-aos="fade-up">
+
+          <h3 class="resume-title">
+            Selected Achievement &amp; Training
+          </h3>
+
+          <div class="resume-content">
+
+            <div class="skill-item">
+
+              <div class="progress">
+
+                <p>
+                  National Conference Speaker (Pemakalah Nasional)
+                  | 3rd Place – National Scientific Writing Competition
+                  | One published work included in a book
+                  | Short Class: Digital Marketing — MySkill
+                  | Technical SEO &amp; Content Strategy —
+                  Skill Academy by Ruang Guru
+                  | Short Story Writing — Tempo Institute.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- End Achievement & Training Section -->
+
+      </div>
+      <!-- END RIGHT COLUMN -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Resume Section -->
+
 
   </main>
 
