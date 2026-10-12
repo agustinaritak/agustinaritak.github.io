@@ -156,54 +156,159 @@
         </div>
         <!-- End Skills Grid -->
 
-        <!-- Journey Timeline -->
-        <div class="mb-5">
-          <div class="row g-4">
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2024 - present </time>
-                <h4>SEO Content Writer PT Qhome Sukses Abadi</h4>
-                <p>SEO article and press release writing; keyword optimization, and content analysis.</p>
-              </article>
-            </div>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2026</time>
-                <h4>Freelance Writer</h4>
-                <p>Stoicism e-book, conducted theoretical research, and analyzed case studies.</p>
-              </article>
-          </div>
-          </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2026</time>
-                <h4>Freelance Copywriter Mindbuzz Academy</h4>
-                <p>E-books, including narrative content, cover design, and layout; created transactional landing pages.</p>
-              </article>
-          </div>    
-          </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2026</time>
-                <h4>Freelance Content Writer Braderlayout</h4>
-                <p>Copy for Canva templates.</p>
-              </article> 
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2024 - 2025</time>
-                <h4>Freelance Content Writer VIVA Digital Network</h4>
-                <p>Parenting topic research and casual article writing.</p>
-              </article>
-          </div>
-        </div>
-        <!-- End Journey Timeline -->
+       
+<!-- Journey Timeline -->
+<style>
+  /* Timeline horizontal - khusus halaman About */
+  #about .journey-grid {
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 22px;
+    width: 100%;
+    align-items: start;
+  }
+
+  #about .journey-grid > .journey-column {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #about .journey-grid .timeline-item {
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  #about .journey-grid .timeline-item h4 {
+    overflow-wrap: break-word;
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #about .journey-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 767px) {
+    #about .journey-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+</style>
+
+<div class="mb-5">
+
+  <div class="journey-grid">
+
+    <!-- Experience 1 -->
+    <div class="journey-column"
+         data-aos="fade-up"
+         data-aos-delay="100">
+
+      <article class="timeline-item">
+        <span class="dot"></span>
+
+        <time>2024 - PRESENT</time>
+
+        <h4>SEO Content Writer PT Qhome Sukses Abadi</h4>
+
+        <p>
+          SEO article and press release writing;
+          keyword optimization, and content analysis.
+        </p>
+      </article>
+
+    </div>
+
+    <!-- Experience 2 -->
+    <div class="journey-column"
+         data-aos="fade-up"
+         data-aos-delay="150">
+
+      <article class="timeline-item">
+        <span class="dot"></span>
+
+        <time>2026</time>
+
+        <h4>Freelance Writer</h4>
+
+        <p>
+          Stoicism e-book, conducted theoretical research,
+          and analyzed case studies.
+        </p>
+      </article>
+
+    </div>
+
+    <!-- Experience 3 -->
+    <div class="journey-column"
+         data-aos="fade-up"
+         data-aos-delay="200">
+
+      <article class="timeline-item">
+        <span class="dot"></span>
+
+        <time>2026</time>
+
+        <h4>Freelance Copywriter Mindbuzz Academy</h4>
+
+        <p>
+          E-books, including narrative content, cover design,
+          and layout; created transactional landing pages.
+        </p>
+      </article>
+
+    </div>
+
+    <!-- Experience 4 -->
+    <div class="journey-column"
+         data-aos="fade-up"
+         data-aos-delay="250">
+
+      <article class="timeline-item">
+        <span class="dot"></span>
+
+        <time>2026</time>
+
+        <h4>Freelance Content Writer Braderlayout</h4>
+
+        <p>
+          Copy for Canva templates.
+        </p>
+      </article>
+
+    </div>
+
+    <!-- Experience 5 -->
+    <div class="journey-column"
+         data-aos="fade-up"
+         data-aos-delay="300">
+
+      <article class="timeline-item">
+        <span class="dot"></span>
+
+        <time>2024 - 2025</time>
+
+        <h4>Freelance Content Writer VIVA Digital Network</h4>
+
+        <p>
+          Parenting topic research and casual article writing.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- End Journey Timeline -->
 
       </div>
 
